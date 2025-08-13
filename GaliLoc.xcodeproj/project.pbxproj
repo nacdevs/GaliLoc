@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		8EBB31782E4D41DE0013DF1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EBB31622E4D41DD0013DF1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EBB31692E4D41DD0013DF1A;
+			remoteInfo = GaliLoc;
+		};
+		8EBB31822E4D41DE0013DF1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EBB31622E4D41DD0013DF1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EBB31692E4D41DD0013DF1A;
+			remoteInfo = GaliLoc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8EBB316A2E4D41DD0013DF1A /* GaliLoc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GaliLoc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EBB31772E4D41DE0013DF1A /* GaliLocTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GaliLocTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EBB31812E4D41DE0013DF1A /* GaliLocUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GaliLocUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8EBB316C2E4D41DD0013DF1A /* GaliLoc */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GaliLoc;
+			sourceTree = "<group>";
+		};
+		8EBB317A2E4D41DE0013DF1A /* GaliLocTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GaliLocTests;
+			sourceTree = "<group>";
+		};
+		8EBB31842E4D41DE0013DF1A /* GaliLocUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GaliLocUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EBB31672E4D41DD0013DF1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EBB31742E4D41DE0013DF1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EBB317E2E4D41DE0013DF1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EBB31612E4D41DD0013DF1A = {
+			isa = PBXGroup;
+			children = (
+				8EBB316C2E4D41DD0013DF1A /* GaliLoc */,
+				8EBB317A2E4D41DE0013DF1A /* GaliLocTests */,
+				8EBB31842E4D41DE0013DF1A /* GaliLocUITests */,
+				8EBB316B2E4D41DD0013DF1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EBB316B2E4D41DD0013DF1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EBB316A2E4D41DD0013DF1A /* GaliLoc.app */,
+				8EBB31772E4D41DE0013DF1A /* GaliLocTests.xctest */,
+				8EBB31812E4D41DE0013DF1A /* GaliLocUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EBB31692E4D41DD0013DF1A /* GaliLoc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EBB318B2E4D41DE0013DF1A /* Build configuration list for PBXNativeTarget "GaliLoc" */;
+			buildPhases = (
+				8EBB31662E4D41DD0013DF1A /* Sources */,
+				8EBB31672E4D41DD0013DF1A /* Frameworks */,
+				8EBB31682E4D41DD0013DF1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8EBB316C2E4D41DD0013DF1A /* GaliLoc */,
+			);
+			name = GaliLoc;
+			packageProductDependencies = (
+			);
+			productName = GaliLoc;
+			productReference = 8EBB316A2E4D41DD0013DF1A /* GaliLoc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8EBB31762E4D41DE0013DF1A /* GaliLocTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EBB318E2E4D41DE0013DF1A /* Build configuration list for PBXNativeTarget "GaliLocTests" */;
+			buildPhases = (
+				8EBB31732E4D41DE0013DF1A /* Sources */,
+				8EBB31742E4D41DE0013DF1A /* Frameworks */,
+				8EBB31752E4D41DE0013DF1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EBB31792E4D41DE0013DF1A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8EBB317A2E4D41DE0013DF1A /* GaliLocTests */,
+			);
+			name = GaliLocTests;
+			packageProductDependencies = (
+			);
+			productName = GaliLocTests;
+			productReference = 8EBB31772E4D41DE0013DF1A /* GaliLocTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8EBB31802E4D41DE0013DF1A /* GaliLocUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EBB31912E4D41DE0013DF1A /* Build configuration list for PBXNativeTarget "GaliLocUITests" */;
+			buildPhases = (
+				8EBB317D2E4D41DE0013DF1A /* Sources */,
+				8EBB317E2E4D41DE0013DF1A /* Frameworks */,
+				8EBB317F2E4D41DE0013DF1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EBB31832E4D41DE0013DF1A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8EBB31842E4D41DE0013DF1A /* GaliLocUITests */,
+			);
+			name = GaliLocUITests;
+			packageProductDependencies = (
+			);
+			productName = GaliLocUITests;
+			productReference = 8EBB31812E4D41DE0013DF1A /* GaliLocUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EBB31622E4D41DD0013DF1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					8EBB31692E4D41DD0013DF1A = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					8EBB31762E4D41DE0013DF1A = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 8EBB31692E4D41DD0013DF1A;
+					};
+					8EBB31802E4D41DE0013DF1A = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 8EBB31692E4D41DD0013DF1A;
+					};
+				};
+			};
+			buildConfigurationList = 8EBB31652E4D41DD0013DF1A /* Build configuration list for PBXProject "GaliLoc" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EBB31612E4D41DD0013DF1A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8EBB316B2E4D41DD0013DF1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EBB31692E4D41DD0013DF1A /* GaliLoc */,
+				8EBB31762E4D41DE0013DF1A /* GaliLocTests */,
+				8EBB31802E4D41DE0013DF1A /* GaliLocUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EBB31682E4D41DD0013DF1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EBB31752E4D41DE0013DF1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EBB317F2E4D41DE0013DF1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EBB31662E4D41DD0013DF1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EBB31732E4D41DE0013DF1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EBB317D2E4D41DE0013DF1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8EBB31792E4D41DE0013DF1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EBB31692E4D41DD0013DF1A /* GaliLoc */;
+			targetProxy = 8EBB31782E4D41DE0013DF1A /* PBXContainerItemProxy */;
+		};
+		8EBB31832E4D41DE0013DF1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EBB31692E4D41DD0013DF1A /* GaliLoc */;
+			targetProxy = 8EBB31822E4D41DE0013DF1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8EBB31892E4D41DE0013DF1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8EBB318A2E4D41DE0013DF1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EBB318C2E4D41DE0013DF1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nestorCam.GaliLoc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8EBB318D2E4D41DE0013DF1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nestorCam.GaliLoc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8EBB318F2E4D41DE0013DF1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nestorCam.GaliLocTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GaliLoc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GaliLoc";
+			};
+			name = Debug;
+		};
+		8EBB31902E4D41DE0013DF1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nestorCam.GaliLocTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GaliLoc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GaliLoc";
+			};
+			name = Release;
+		};
+		8EBB31922E4D41DE0013DF1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nestorCam.GaliLocUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GaliLoc;
+			};
+			name = Debug;
+		};
+		8EBB31932E4D41DE0013DF1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nestorCam.GaliLocUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GaliLoc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EBB31652E4D41DD0013DF1A /* Build configuration list for PBXProject "GaliLoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EBB31892E4D41DE0013DF1A /* Debug */,
+				8EBB318A2E4D41DE0013DF1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EBB318B2E4D41DE0013DF1A /* Build configuration list for PBXNativeTarget "GaliLoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EBB318C2E4D41DE0013DF1A /* Debug */,
+				8EBB318D2E4D41DE0013DF1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EBB318E2E4D41DE0013DF1A /* Build configuration list for PBXNativeTarget "GaliLocTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EBB318F2E4D41DE0013DF1A /* Debug */,
+				8EBB31902E4D41DE0013DF1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EBB31912E4D41DE0013DF1A /* Build configuration list for PBXNativeTarget "GaliLocUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EBB31922E4D41DE0013DF1A /* Debug */,
+				8EBB31932E4D41DE0013DF1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EBB31622E4D41DD0013DF1A /* Project object */;
+}
