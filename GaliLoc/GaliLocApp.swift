@@ -6,9 +6,17 @@
 //
 
 import SwiftUI
+import Foundation
 
 @main
 struct GaliLocApp: App {
+    let persistenceController = PersistenceController.shared
+        init() {
+            LocationManager.shared.configureCoreData(container: persistenceController.container)
+            LocationManager.shared.startMonitoring()
+            
+        }
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
