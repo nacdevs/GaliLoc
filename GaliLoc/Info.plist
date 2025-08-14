@@ -7,10 +7,10 @@
 		<string>location</string>
 	</array>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-<string>Necesitamos tu ubicación para detectar puntos de interés</string>
-<key>NSLocationWhenInUseUsageDescription</key>
-<string>Necesitamos tu ubicación para detectar puntos de interés</string>
-<key>NSLocationAlwaysUsageDescription</key>
-<string>Necesitamos tu ubicación para detectar puntos de interés</string>
+	<string>Necesitamos tu ubicación para detectar ceracania con sucursales</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Necesitamos tu ubicación para detectar ceracania con sucursales</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Necesitamos tu ubicación para detectar ceracania con sucursales</string>
 </dict>
 </plist>
