@@ -14,8 +14,8 @@ public class LocationManager: NSObject, CLLocationManagerDelegate {
     
     private let manager = CLLocationManager()
     private var persistentContainer: NSPersistentContainer!
-    private var context: NSManagedObjectContext!
-
+    public var context: NSManagedObjectContext! //public for testing purposes
+    
     
     func configureCoreData(container: NSPersistentContainer) {
         self.persistentContainer = container
@@ -27,29 +27,30 @@ public class LocationManager: NSObject, CLLocationManagerDelegate {
         manager.requestAlwaysAuthorization()
         manager.allowsBackgroundLocationUpdates = true
         manager.pausesLocationUpdatesAutomatically = false
-        //If CoreData is empty retrieves from API, the best approach is to have an expire propery on the list
+        
+        //If CoreData is empty retrieves from API, a better approach would be to have an expire property on the list
         if(isCoreDataEntityEmpty(entityName: Constants.LocationEntity, context: context)){
             saveLocationsToCoreData()
-        }else{
-            loadRegionsFromCoreData()
         }
     }
+    
     
     
     //MARK: Location Manager Delegates
     public func locationManager(_ manager: CLLocationManager, didEnterRegion region: CLRegion) {
         print("Entraste a region: \(region.identifier)")
-    
+        
         NetworkManager.shared.postLocation(coord: manager.location?.coordinate ?? CLLocationCoordinate2D(),
                                            status: region.notifyOnEntry ? .enter : .exit)
     }
     
     public func locationManager(_ manager: CLLocationManager, didExitRegion region: CLRegion) {
         print("Saliste de la region: \(region.identifier)")
-    
+        
         NetworkManager.shared.postLocation(coord: manager.location?.coordinate ?? CLLocationCoordinate2D(),
                                            status: region.notifyOnExit ? .exit : .enter)
     }
+    
     
     
     //MARK: CoreData interaction
@@ -70,32 +71,31 @@ public class LocationManager: NSObject, CLLocationManagerDelegate {
         }
     }
     
- 
-     func saveLocationsToCoreData() {
-         NetworkManager.shared.getLocations { locations in
-             guard let locations = locations else { return }
-
-             
-             let fetch: NSFetchRequest<NSFetchRequestResult> = LocationEntity.fetchRequest()
-             let deleteRequest = NSBatchDeleteRequest(fetchRequest: fetch)
-             
-             for loc in locations {
-                 let entity = LocationEntity(context: self.context)
-                 entity.latitude = loc.latitude
-                 entity.longitude = loc.longitude
-                 entity.radius = loc.radius
-             }
-             
-             do {
-                 try self.context.execute(deleteRequest)
-                 try self.context.save()
-                 self.loadRegionsFromCoreData()
-             } catch {
-                 print("Error guardando en Core Data: \(error)")
-             }
-         }
-           
-       }
+    
+    func saveLocationsToCoreData() {
+        NetworkManager.shared.getLocations { locations in
+            guard let locations = locations else { return }
+            
+            let fetch: NSFetchRequest<NSFetchRequestResult> = LocationEntity.fetchRequest()
+            let deleteRequest = NSBatchDeleteRequest(fetchRequest: fetch)
+            
+            for loc in locations {
+                let entity = LocationEntity(context: self.context)
+                entity.latitude = loc.latitude
+                entity.longitude = loc.longitude
+                entity.radius = loc.radius
+            }
+            
+            do {
+                try self.context.execute(deleteRequest)
+                try self.context.save()
+                self.loadRegionsFromCoreData()
+            } catch {
+                print("Error guardando en Core Data: \(error)")
+            }
+        }
+        
+    }
     
     
     func isCoreDataEntityEmpty(entityName: String, context: NSManagedObjectContext) -> Bool {

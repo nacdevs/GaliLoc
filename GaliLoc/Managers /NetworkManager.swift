@@ -29,6 +29,7 @@ public class NetworkManager: NSObject {
         body["status"] = status.rawValue
         request.httpBody = try? JSONSerialization.data(withJSONObject: body)
         
+        //Since it was only two functions I decided not to make a general main function nor use a 3rd party library like Alamofire
         URLSession.shared.dataTask(with: request) { _, _, error in
             if let error = error {
                 print("Error en POST: \(error)")
@@ -57,6 +58,8 @@ public class NetworkManager: NSObject {
             }
         }.resume()
     }
+    
+    
 }
 
 
