@@ -5,13 +5,38 @@
 //  Created by Nestor Camela on 13/08/2025.
 //
 
-import Testing
+import XCTest
 @testable import GaliLoc
 
-struct GaliLocTests {
+class GaliLocTests: XCTestCase {
+    
+    
+    func test_getLocations () {
+        // given
+        let exp = XCTestExpectation(description: "loading locations")
+        let netWorkManager = NetworkManager.shared
+        var locations:[RemoteLocation]?
+        
+        //when
+        netWorkManager.getLocations { locs in
+            locations = locs
+            exp.fulfill()
+        }
+        //then
+        wait(for: [exp], timeout: 5.0)
+        XCTAssertNotNil(locations)
+    }
+    
 
-    @Test func example() async throws {
-        // Write your test here and use APIs like `#expect(...)` to check expected conditions.
+    func test_loadRegions () {
+        // given
+        let locationManager = LocationManager.shared
+        
+        //when
+        locationManager.loadRegionsFromCoreData()
+       
+        //then
+        XCTAssertFalse((locationManager.isCoreDataEntityEmpty(entityName: Constants.LocationEntity , context: locationManager.context)))
     }
 
 }
