@@ -27,6 +27,7 @@ public class LocationManager: NSObject, CLLocationManagerDelegate {
         manager.requestAlwaysAuthorization()
         manager.allowsBackgroundLocationUpdates = true
         manager.pausesLocationUpdatesAutomatically = false
+        CLLocationManager().requestAlwaysAuthorization()
         
         //If CoreData is empty retrieves from API, a better approach would be to have an expire property on the list
         if(isCoreDataEntityEmpty(entityName: Constants.LocationEntity, context: context)){
